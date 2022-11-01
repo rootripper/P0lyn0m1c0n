@@ -11,6 +11,14 @@ Feel free to edit this dictionary according to your needs, so if your target lik
 
 Mainly but not limited to, I recommend using these wordlists in WPA-2 password attacks.
 
+## Dependencies
+
+P0lyn0m1c0n requires sponge installed on our computer and sponge is a utility that is not installed by default on some distributions.
+
+If we do not have sponge installed, we will install moreutils:
+
+└─# apt-get install moreutils
+
 ## Run P0lyn0m1c0n
 
 To run P0lyn0m1c0n, simply run the script on your Linux terminal and provide the name of your target, then a .txt file will be generated in the current directory called P0lyn0m1c0n_{target}.txt containing your custom wordlist.
