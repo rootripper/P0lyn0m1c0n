@@ -33,7 +33,7 @@ else
   exit
 fi
 
-if ! [ -x "$(command -v spongito)" ]; then
+if ! [ -x "$(command -v sponge)" ]; then
   echo 'Error: sponge is not installed.' >&2
   echo 'try apt-get install moreutils'
   exit 1
